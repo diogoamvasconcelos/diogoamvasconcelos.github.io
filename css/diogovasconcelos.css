@@ -1,0 +1,14 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #404040;
+}
+
+.jumbotron
+{
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 26px;
+	background-color: rgba(255, 255, 10, .6);
+}
+

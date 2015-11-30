@@ -51,13 +51,32 @@
           </div>
         </nav>
 
-        <div class="container main-contents" role="main">
-            <div class="jumbotron">
-                <h1>Numboggle</h1>
-                <p>Puzzle boggle game regarding simple mental calculation problems.</p>
-                <p>Contact  <span>diogo.am.vasconcelos at gmail.com</span> regarding app issues, feedback or feature requests.</p>
-                 <p>This page is still under development</p>
-            <div>
+        <h1 id="default_padding">Numboggle</h1>
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/DkZrEcxTWWA"></iframe>             
+        </div>
+
+        <div class="jumbotron">
+            <h1>What is Numboggle?<h1>
+            <p>Numboggle is a mobile game, similar to a boggle puzzle, where the goal is to find a sequence of numbers whom product or sum reaches a certain target.</p>
+            <p>It was developed by me with the help of Luisa Rodrigues who gave the main idea, lots of support as well as many important suggestions and remarks.</p>
+            <p>It is currently available for <a href="https://play.google.com/store/apps/details?id=com.Dibu.Numboggle" target="_newtab">Android</a>, <a href="https://itunes.apple.com/app/numboggle/id1056150931" target="_newtab">iOS</a> and <a href="https://www.microsoft.com/store/apps/9nblggh6932p" target="_newtab">Windows 10</a> on the respective official stores.</p>
+            <h2>Support</h2>
+            <p>Please contact me, using <span id="email">diogo.am.vasconcelos at gmail.com</span> regarding app issues, feedback or feature requests.</p>
+        </div>
+        <div class="jumbotron">
+            <h1>Development</h1>
+            <p>This project started as an attempt to make a very simple mobile application, which could be easily and quickly finished. The simplicity and small amount of content allowed me to rapidly correct the problems that I was encountering so I continually moved forward in the development without getting sucked into the “gravity pull” that big, complex and more demanding projects tend to have.</p>
+            <p>I choose to develop the a simple game, based on an idea my girlfriend had for an educational game for mental calculation, in Unity 5 because I already had a lot of experience in it and Unity really enables fast development.</p>
+            <h2>The fun part</h2>
+            <p>I was quite excited to start, because of the thrill of designing an algorithm to find all the available solutions in a level and also to procedurally generate levels. At the time, I knew little about data structures, about search/optimization algorithms in general and had little experience using recursive algorithms. I really enjoyed making my first algorithms prototypes and they did work, although looking back, they were very messy and inefficient and maybe not something to be really proud of.</p>
+            <p>Only after reading and studying about data structures and algorithms did I improve these algorithms, using sets and recursive backtracking deep-first search algorithms (although still very much using a brute-force approach). It was nice to see that I had already applied some of the ideas for set properties of a collection, recursive backtracking and deep-first search in my earlier prototypes. As so, and because they already worked well (in terms of finding the optimal solutions, not space and time complexity wise) I did not rewrite them and just made some improvements.</p>
+            <p>The algorithms can be check <a href="https://github.com/diogoamvasconcelos/numboogle-code-samples" target="_newtab">here</a>.</p>
+            <h2>The not so fun, but definitely the most important part</h2>
+            <p>Having a prototype for the game that worked was the easy part. The real challenge was making it look not horrible (maybe it still is but trust me, it was way worst), providing a nice user experience and shipping a finished product.</p>
+            <p>The final look was the result of a few overall design iterations, and although it was still far from looking great, I am satisfied with what I got in the end.</p>
+            <p>After making the final touches, adding ads, analytics and game social services (Google Play Games and Game Center), publishing to Android, iOS and Windows 10 was pretty much straight forward because I had developed in Unity 5, although being accepted in the respective stores still took a bit of work.</p>
         </div>
 
         <!-- js/script linkage -->

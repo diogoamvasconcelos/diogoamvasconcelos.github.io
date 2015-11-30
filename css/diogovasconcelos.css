@@ -1,18 +1,44 @@
 body {
   padding-top: 60px;
   padding-bottom: 30px;
-  background-color: #404040;
+  background-color: #E0E0E0;
 }
 
 .jumbotron
 {
 	margin-top: 30px;
-	padding-top: 20px;
-	padding-bottom: 26px;
+	padding: 20px 62px 26px 62px;
 	background-color: rgba(255, 255, 255, .6);
 }
 
-.italic
+#italic
 {
 	font-style: italic;
+}
+
+.grid_image
+{
+	width: 100%;
+}
+
+.grid_text
+{
+   	top: 	0px;
+}
+
+#smaller_h2
+{
+	font-size: 16px;
+}
+
+#email
+{
+	font-style: italic;
+}
+
+#default_padding
+{
+	padding-left: 62px;
+	padding-right: 62px;
+	text-align: left;
 }

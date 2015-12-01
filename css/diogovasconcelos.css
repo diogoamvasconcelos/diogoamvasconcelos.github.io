@@ -10,6 +10,11 @@ body
   background-color: #E0E0E0;
 }
 
+a
+{
+  color: #29e;
+}
+
 .jumbotron
 {
 	margin-top: 8px;
@@ -126,16 +131,12 @@ body
 }
 .cover a
 {
-  color: #F55;
+  color: #2ee;
 }
 
 .active .navbar-brand
 {
 	color: #fff;
-}
-.active > a
-{
-	background: none;
 }
 
 .footer

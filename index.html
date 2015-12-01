@@ -33,11 +33,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="about_me.html">Diogo Vasconcelos</a>
+              <div class="href_content">
+                <a class="navbar-brand" href="#home">Diogo Vasconcelos</a>
+              </div>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="href_content"><a href="#about_me">About me</a></li>
+                <li class="href_content"><a href="#contact_me">Contact</a></li>
                 <li><a href="work.html">Work</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
@@ -45,18 +48,67 @@
                     <li><a href="numboggle.html">Numboggle</a></li>
                   </ul>
                 </li>
-                <li><a href="contact_me.html">Contact</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
         </nav>
 
-        <div class="jumbotron">
-            <h1>Hello</h1>
-            <p>This is my personal page where information about my <a href="work.html">work and projects</a> is displayed.</p>
-            <p>This page is still under development</p>
-            <a href="about_me.html">About me</a>
-        <div>
+        <div class="cover-container" id="home">
+            <div class="cover">
+                <h1 class="cover-heading">Hello</h1>
+                <p class="lead">This is my personal page where information about my <a href="work.html">work and projects</a> is displayed.</p>
+                <p class="lead">
+                    <a href="#about_me" class="btn btn-lg btn-default">Who am I?</a>
+                </p>
+            </div>
+        </div>
+
+        <div id="about_me">
+            <div class="container">
+                <h1>About me</h1>
+            </div>
+
+            <div class="jumbotron">
+                <div class="circular_avatar">
+                    <img src="img/avatar.png" alt="Diogo Vasconcelos Avatar" height="156" width="156" align="middle"/>
+                </div>
+                <div class="container">
+                    <p>I am a 26 year old portuguese, bicycle addicted with a simple goal in life: to be happy and free from fear.</p>
+                    <p>I love technology and video games and I am fascinated by science, nature and the human brain.
+                    I studied Mechanical Engineering only to find out, on my first job, that my real passion and interest is Programming.</p>
+                    <p>After three years of employment and learning in a <a href="http://www.realgames.pt/" target="_newtab">great company</a>, I needed change. I am now preparing for a new phase of knowledge and adventure, that hopefully will lead to truly amazing projects.</p>
+                    <p>This preparation involves broadening my Computer Science understanding while developing simple projects for both learning and portfolio purposes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact_me" style="height: 100%">
+            <div class="container">
+               <h1>Contact</h1>
+            </div>
+             <div class="jumbotron" >
+                <div class="container">
+                    <ul>
+                        <li>
+                            <p>Email: <a href="mailto:diogo.am.vasconcelos@gmail.com" target="_top">diogo.am.vasconcelos at gmail.com</a></p>
+                        </li>
+                        <li>
+                            <p>Linkdin: <a href="https://www.linkedin.com/in/dvasconcelos" target="_newtab">Diogo Vasconcelos</a></p>
+                        </li>
+                        <li>
+                            <p>Github: <a href="https://github.com/diogoamvasconcelos" target="_newtab">@diogoamvasconcelos</a></p>
+                        </li>
+                        <li>
+                            <p>CV: <a href="files/diogovasconcelos-cv.pdf" target="_newtab">PDF</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer index_footer">
+              <p>2015 Diogo Vasconcelos</p>
+        </div>
 
         <!-- js/script linkage -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

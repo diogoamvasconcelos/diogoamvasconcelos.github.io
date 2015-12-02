@@ -111,6 +111,8 @@ a
   margin-left: auto;
   text-align: center;
   vertical-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
 
   position: absolute;
   top: 50%;
